@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.logoss{
+	width: 100%; 
+	height: 100px; 
+	align-content: center; 
+	text-align: center;
+}
+
+.description{
+	width: 100%;
+	height: 50px;
+	.background-color: white;
+	border-style: none;
+	font-family: tahoma;
+	font-size: 20px;
+}
+
+.description:hover{
+	background-color: #f27d25;
+	color: blue;
+}
+
+.AllPhones{
+	width: 100%;
+	min-height: 1000px;
+}
+
+.bothphones
+{
+	width: 47%;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.space{
+	display: inline-block;
+	vertical-align: top;
+	width: 5%;
+	height: 300px;
+}
+
+.bothphone
+{
+	width: 47%;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+}
+.first{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	min-height: 300px;
+}
+
+.first:hover{
+	opacity: 0.8;
+}
+
+.second:hover{
+	opacity: 0.8;
+}
+
+
+.vs{
+	display: inline-block;
+	vertical-align: top;
+	width: 8%;
+	height: 300px;
+	padding-top: 20%;
+	padding-left: 10px;
+	font-family: algerian;
+	color: blue;
+}
+
+.second{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	min-height: 300px;
+}
+h2{
+	text-align: center;
+	color: red;
+	padding-top: 30px;
+}
+.side h3{
+	color: black;
+}
+table{
+			width: 100%;
+			border-collapse: collapse;
+		}
+		td, th{
+			padding: 12px;
+			text-align: left;
+		}
+		tr:nth-child(odd){
+			background: turquoise;
+			color: purple;
+		}
+		tr:nth-child(even){
+			background: #f3f3f3;
+		}
+		th{
+			background: green;
+		}
